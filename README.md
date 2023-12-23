@@ -51,10 +51,40 @@ python script.py <comando> [argumentos]
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejoras, siéntete libre de abrir un problema o enviar un pull request.
 
-# google_browser
-Repository that contains the code that allows doing optimized google searches trhough the terminal 
+# google_browser.py
 
-## Where does this idea come from?: 
+**Description:**
+This Python script performs a Google search with specific websites as search filters. It opens the search results in Google Chrome.
 
-This code comes from this video:
-https://www.youtube.com/watch?v=6wwHv-cyOd0
+**Requirements:**
+- Python 3.x
+- Google Chrome (or adjust the browser executable path as needed)
+
+**Usage:**
+### Run the Script
+
+```bash python google_browser.py [search_query]
+
+**Detalles del Script:**
+El script genera una URL de búsqueda de Google basada en una consulta de búsqueda proporcionada y filtra los resultados a sitios web específicos.
+
+- **Estructura de la URL:** La URL base para la búsqueda en Google se establece en `https://www.google.com.mx/search?q=`.
+- **Sitios Web a Buscar:** El script filtra los resultados de búsqueda para sitios web específicos enumerados en el array `sitios_a_buscar`.
+- **Ruta de Chrome:** La ruta al ejecutable de Google Chrome en Windows se establece como `C:/Program Files/Google/Chrome/Application/chrome.exe %s`.
+
+**Funciones:**
+- **`crear_filtro()`:** Crea una cadena de filtro para sitios web específicos en la consulta de búsqueda.
+- **`crear_busqueda()`:** Obtiene la consulta de búsqueda de los argumentos de la línea de comandos.
+- **`crear_url()`:** Genera la URL final de búsqueda en Google con la consulta y el filtro y la abre en Google Chrome.
+
+**Ejemplo:**
+Para buscar una consulta y filtrar los resultados para sitios web específicos, ejecuta:
+
+bash python google_browser.py tutoriales de python
+
+Esto realizará una búsqueda en Google de "tutoriales de python" con los resultados filtrados para los sitios web especificados.
+
+
+## Contribuciones:
+¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
+
