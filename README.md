@@ -11,41 +11,41 @@ Este script de Python facilita la gestión de una lista de sitios favoritos, bri
 
 ### Ejecutar el Script
 
-\```bash
+```bash
 python script.py <comando> [argumentos]
-\```
+```
 
 ### Comandos Disponibles
 
-- **\`agregar\`**: Agrega un nuevo sitio a la lista.
+- **`agregar`**: Agrega un nuevo sitio a la lista.
   \```bash
   python script.py agregar <enlace> <descriptivo>
   \```
 
-- **\`eliminar\`**: Elimina un sitio de la lista.
-  \```bash
+- **`eliminar`**: Elimina un sitio de la lista.
+  ```bash
   python script.py eliminar <índice>
-  \```
+  ```
 
-- **\`cambiar_nombre\`**: Cambia el nombre de un sitio en la lista.
-  \```bash
+- **`cambiar_nombre`**: Cambia el nombre de un sitio en la lista.
+  ```bash
   python script.py cambiar_nombre <índice> <nuevo_nombre>
-  \```
+  ```
 
-- **\`cambiar_direccion\`**: Cambia la dirección de un sitio en la lista.
-  \```bash
+- **`cambiar_direccion`**: Cambia la dirección de un sitio en la lista.
+  ```bash
   python script.py cambiar_direccion <índice> <nueva_direccion>
-  \```
+  ```
 
-- **\`lista\`** (o **\`l\`**, **\`list\`**): Muestra la lista de sitios favoritos.
-  \```bash
+- **`lista`** (o **`l`**, **`list`**): Muestra la lista de sitios favoritos.
+  ```bash
   python script.py lista
-  \```
+  ```
 
 - Sin comando: Muestra la lista de sitios favoritos y abre un sitio específico en el navegador.
-  \```bash
+  ```bash
   python script.py
-  \```
+  ```
 
 ## Contribuciones
 
