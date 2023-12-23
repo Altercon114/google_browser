@@ -63,7 +63,7 @@ This Python script performs a Google search with specific websites as search fil
 **Usage:**
 ### Run the Script
 
-```bash python google_browser.py [search_query]
+bash python google_browser.py [search_query]
 
 **Detalles del Script:**
 El script genera una URL de búsqueda de Google basada en una consulta de búsqueda proporcionada y filtra los resultados a sitios web específicos.
