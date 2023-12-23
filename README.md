@@ -1,55 +1,55 @@
-# Script de Gestión de Sitios Favoritos
+# Favorite Sites Management Script
 
-Este script de Python facilita la gestión de una lista de sitios favoritos, brindando la capacidad de agregar, eliminar, cambiar el nombre y cambiar la dirección de los sitios. También puede mostrar la lista de sitios favoritos y abrir un sitio específico en el navegador.
+This Python script facilitates the management of a list of favorite sites, providing the ability to add, remove, change the name, and change the address of sites. It can also display the list of favorite sites and open a specific site in the browser.
 
-## Requisitos
+## Requirements
 
 - Python 3.x
-- Google Chrome (o ajustar la ruta del ejecutable del navegador según sea necesario)
+- Google Chrome (or adjust the browser executable path as needed)
 
-## Uso
+## Usage
 
-### Ejecutar el Script
+### Run the Script
 
 \```bash
-python script.py <comando> [argumentos]
+python script.py <command> [arguments]
 \```
 
-### Comandos Disponibles
+### Available Commands
 
-- **\`agregar\`**: Agrega un nuevo sitio a la lista.
+- **\`add\`**: Add a new site to the list.
   \```bash
-  python script.py agregar <enlace> <descriptivo>
+  python script.py add <link> <description>
   \```
 
-- **\`eliminar\`**: Elimina un sitio de la lista.
+- **\`remove\`**: Remove a site from the list.
   \```bash
-  python script.py eliminar <índice>
+  python script.py remove <index>
   \```
 
-- **\`cambiar_nombre\`**: Cambia el nombre de un sitio en la lista.
+- **\`change_name\`**: Change the name of a site in the list.
   \```bash
-  python script.py cambiar_nombre <índice> <nuevo_nombre>
+  python script.py change_name <index> <new_name>
   \```
 
-- **\`cambiar_direccion\`**: Cambia la dirección de un sitio en la lista.
+- **\`change_address\`**: Change the address of a site in the list.
   \```bash
-  python script.py cambiar_direccion <índice> <nueva_direccion>
+  python script.py change_address <index> <new_address>
   \```
 
-- **\`lista\`** (o **\`l\`**, **\`list\`**): Muestra la lista de sitios favoritos.
+- **\`list\`** (or **\`l\`**, **\`list\`**): Display the list of favorite sites.
   \```bash
-  python script.py lista
+  python script.py list
   \```
 
-- Sin comando: Muestra la lista de sitios favoritos y abre un sitio específico en el navegador.
+- No command: Display the list of favorite sites and open a specific site in the browser.
   \```bash
   python script.py
   \```
 
-## Contribuciones
+## Contributions
 
-¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejoras, siéntete libre de abrir un problema o enviar un pull request.
+Contributions are welcome! If you find bugs or have improvement suggestions, feel free to open an issue or submit a pull request.
 
 # google_browser
 Repository that contains the code that allows doing optimized google searches trhough the terminal 
