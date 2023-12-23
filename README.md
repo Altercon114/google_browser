@@ -51,12 +51,6 @@ python script.py <comando> [argumentos]
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejoras, siéntete libre de abrir un problema o enviar un pull request.
 
-## Licencia
-
-Este proyecto está bajo la licencia [MIT](LICENSE).
-
-
-
 # google_browser
 Repository that contains the code that allows doing optimized google searches trhough the terminal 
 
