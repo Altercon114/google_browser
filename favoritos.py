@@ -4,10 +4,10 @@ import sys
 import webbrowser
 import pickle
 
-# Lista original
+# Lista base para que comience agregando sus favoritos
 # sitios_favoritos_original = [
 #     ('https://www.youtube.com/', 'Youtube'),
-#     ('https://space.bilibili.com/526489877/', 'Calendario Google'),
+#     ('https://googlecalendar.com/, 'Calendario Google'),
 #     ('https://chat.openai.com/', 'ChatGPT'),
 #     ('https://drive.google.com/drive/my-drive', 'Mi Drive'),
 # ]
@@ -121,9 +121,9 @@ if len(sys.argv) > 1:
             cambiar_direccion_sitio(indice_cambiar_direccion,nueva_direccion)
         else:
             print('Por favor, proporcione el índice del sitio que desea cambiar la dirección.')
-    elif comando in ['lista']:
-        imprimir_lista()
     else:
         generar_busqueda()
 else:
+    print("Puedes, agregar, eliminar, cambiar el nombre y la dirección de algún elemento guardado")
+    print("La estrucutura para esto es: Enlace Apodo/Nombre")
     imprimir_lista()
