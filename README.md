@@ -46,11 +46,6 @@ python script.py <comando> [argumentos]
   ```bash
   python script.py
   ```
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejoras, siéntete libre de abrir un problema o enviar un pull request.
-
 # google_browser.py
 
 **Description:**
@@ -86,5 +81,5 @@ Esto realizará una búsqueda en Google de "tutoriales de python" con los result
 
 
 ## Contribuciones:
-¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
+¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias de mejora, no dudes en comentarme para resolverlo en disponibilidad
 
